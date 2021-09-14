@@ -34,7 +34,7 @@ public class Calculator {
 		this.textProvider = textProvider;
 		setupDefaultOperations();
 	}
-
+	// New Function
 	private void setupDefaultOperations() {
 	    // Das ist der erste Kommentar in masterGithub
 	    // Das ist der zweite Kommentar in master
@@ -49,6 +49,7 @@ public class Calculator {
 	private void calculate(String cmdName) {
 		float curValue;
 		float newValue = 0;
+		//Another change
 
 		// get current value of display
 		curValue = Float.parseFloat(textProvider.getDisplayText());
