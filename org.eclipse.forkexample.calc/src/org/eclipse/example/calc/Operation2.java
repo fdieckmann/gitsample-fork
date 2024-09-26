@@ -8,20 +8,9 @@
  *******************************************************************************/
 package org.eclipse.example.calc;
 
-public interface Operation {
+public interface Operation2 {
 	/**
 	 * @return name of the operation
 	 */
 	public String getName();
 }
-
-
-SSH
-- private dasdf
-- public  (Server)
-
-
-User .ssh
-
-Public und private key
-
